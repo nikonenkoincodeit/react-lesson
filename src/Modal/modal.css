@@ -1,0 +1,19 @@
+.wrapper-modal {
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: 999;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-modal {
+  padding: 30px;
+  background: #fff;
+  min-width: 400px;
+  min-height: 300px;
+}
